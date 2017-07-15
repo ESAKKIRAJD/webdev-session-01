@@ -1,0 +1,110 @@
+body{
+  background-color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  background-color: #000000;
+  padding: 30px 50px 30px 0px;
+  text-align: right;
+  color: #ffffff;
+  position: fixed;
+  top:0;
+  width:100%;
+}
+.link{
+  color:#ffffff;
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+}
+.link.active{
+  text-decoration: underline;
+}
+.bannerImg{
+  background-color: #dedede;
+  margin-top: 60px;
+}
+.bannerImg img{
+  width: 100%;
+}
+.hirenotify{
+  background-color: #dedede;
+  height: 50px;
+}
+.hiretext{
+  width:85%;
+  float: left;
+  text-align: center;
+}
+.hiretext p{
+  vertical-align: middle;
+  line-height: 50px;
+  color:#8c8888;
+}
+.contentarea, .imagepanels{
+  padding: 25px 10% 0 10%;
+}
+
+.hirebutton{
+  width:15%;
+  float:left;
+  padding-top: 10px;
+}
+.hirebutton button{
+  width:150px;
+  height: 30px;
+  border-radius: 4px;
+}
+.about, .think{
+  width:50%;
+  float: left;
+}
+.about h4, .think h4{
+  line-height: 40px;
+}
+.about p, .think p{
+  font-size: small;
+  line-height: 19px;
+  color: #a29e9e;
+  padding: 0 5% 0 0;
+}
+.imagepanels{
+  clear: both;
+}
+
+.panel{
+  width: 23%;
+  padding: 10px 2% 0 0%;
+  float: left;
+}
+
+.panel img{
+  width:100%;
+  height:130px;
+}
+
+.panel h6{
+  line-height: 40px;
+}
+.panel p{
+  font-size: small;
+  line-height: 19px;
+  color: #a29e9e;
+  padding: 0 5% 0 0;
+}
+footer{
+  background-color: #000000;
+  margin-top: 20px;
+  padding: 0 10% 0 10%;
+}
+
+.imagepanels::after,footer::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+footer .panel h6{
+  color:#ffffff;
+}
